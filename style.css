@@ -1,0 +1,87 @@
+@font-face {
+    font-family: bb_font;
+    src: url(fuente/Breaking\ Bad.ttf);
+}
+
+body, .cuerpo-f{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagen-1 { height: 210px;
+    width: 205px;
+    margin-left: 820px;    
+}
+#texto {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 60px; 
+    margin-top: -5px;
+    font-family: "bb_font"; 
+}
+.imagen-2 {
+    height: 310px;
+    width: 700px;    
+    border-radius: 22px;
+    border: 10px outset brown;
+    margin-top: 95px;
+    margin-left: 500px;
+}
+
+
+#texto2 {
+    position: initial;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ; 
+    font-size: 95px; 
+    margin-top: -5px;
+}
+#formulario {
+    margin: auto;
+    border: 10px;
+    width: 900px;
+    height: 900px;
+    color: rgb(68, 233, 35);
+    font-size: 20px;
+    margin-top: -5%;
+    font-weight: bold;
+}
+#calle {
+    width: 500px;
+    height: 20px;
+}
+#espacio {
+    width: 95px;
+    height: 20px;
+}
+#documento {
+    width: 200px;
+    height: 20px;
+}
+#person {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 0;     
+    float: left;
+    width: 455px;
+    height: 25px;
+}
+#coment {
+    float: left;
+}
+#button {
+    font-weight: bold;
+}
+.general { 
+    background-color: #0c3e11;
+    background-image: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    }
+

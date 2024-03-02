@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="img/png" href="/img/icon.png">
+    
+</head>
+<body class="cuerpo-f">
+    <h1 id="texto2">Breaking Bad - Que comience el juego!</h1>
+    <br>
+    <br>
+    <br>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name=""formulario" id="formulario">
+    <fieldset>
+        <legend>Datos Personales</legend>
+    Nombre: <input type="text" name="caja" id="name" placeholder="" required>
+    <br>
+    Apellidos: <input type="text" name="caja" id="apellido" placeholder="" value="" required>
+    Sexo <input type="radio" name="sexo" value="M"> Mujer
+           <input type="radio" name="sexo" value="H"> Hombre
+           <br>
+    Fecha de Nacimiento: <input type="date" name="fecha" min="1920-01-01" max="2030-12-12" step="2">
+</fieldset>
+    <br>
+    <fieldset>
+        <legend>Tú Dirección</legend>
+      
+    Calle: <input type="text" name="caja" id="calle" placeholder="" > 
+    <br>
+    Número: <input type="number" name="numero" id="espacio" placeholder="">
+    Piso: <input type="number" name="piso" id="espacio" placeholder="">
+    C.P: <input type="number" name="c.p" id="espacio" placeholder="">
+    Ciudad: <input type="name" name="ciudad" id="espacio" placeholder="">
+    <br>
+    DNI / NIE: <input type="name" name="dni" id="documento" placeholder="">
+    <br>
+    Correo electrónico: <input type="email" name="correo" id="documento" placeholder="" required>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Personaje favorito - Tu Review</legend>
+     <select name="Personaje" id="person">
+        <option value="1">Jessie Pinkman</option>
+        <option value="2">Walter White</option>
+        <option value="3">Saul Goodman</option>
+        <option value="4">Gustavo Fring</option>
+        <option value="5">Pollos Hermanos</option>
+        <option value="6">Otros Personajes</option>
+     </select> 
+     <br>
+     <br>
+     <textarea placeholder="Escribe aquí" name="texto" id="coment"
+        cols="100" rows="20"></textarea>
+        <br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar" id="button">
+        <input type="file" name="adjunto" accept=".jpg,.png,.pdf" multiple id="button">
+        <input type="submit" value="Reiniciar" id="button">
+
+      </form>
+  
+</body>
+</html>
